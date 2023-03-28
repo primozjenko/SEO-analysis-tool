@@ -1,0 +1,23 @@
+{
+    "name": "ChatGPT Chrome Extension",
+    "version": "1.0.0",
+    "description": "This is an extension made to boost your browsing experience. With a click of a button you can see what ChatGPT says about your search",
+    "manifest_version": 3,
+    "author": "Primoz J.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "ChatGPT Chrome Extension"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }]
+  }
+  

@@ -1,0 +1,22 @@
+{
+  "name": "Chrome-extension-Analysis-and-SEO",
+  "version": "1.0.0",
+  "description": "Website analysis and SEO tools: Chrome extensions that help users analyze and optimize their websites.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primozjenko/SEO-analysis-tool.git"
+  },
+  "keywords": [
+    "SEO"
+  ],
+  "author": "Primoz Jenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/primozjenko/SEO-analysis-tool/issues"
+  },
+  "homepage": "https://github.com/primozjenko/SEO-analysis-tool#readme"
+}
